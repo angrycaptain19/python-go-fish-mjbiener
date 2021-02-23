@@ -52,7 +52,7 @@ class Game:
 
     # TODO use deal_card() method from Deck class to deal 7 cards to each player
     def deal_hands(self):
-        for i in range(7):
+        for _ in range(7):
             self.deck.deal_card()
 
     # TODO create turn action in which player asks for a card and goes fish according to the rules
